@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 
 export default function TextForm(props) {
   let myStyle ={
-    backgroundColor: 'black'
+    color: 'white',
+    backgroundColor: '#27555c'
   }
     const handleUpClick = () =>{
         console.log("Upper case was clicked");
@@ -20,7 +21,7 @@ export default function TextForm(props) {
     const [text,setText]=useState("");
   return (
     <>
-    <div className="container">
+    <div className="container" style={mycStyle}>
       
 <div className="mb-3" >
     <h1> {props.heading }</h1>
