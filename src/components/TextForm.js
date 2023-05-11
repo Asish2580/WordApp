@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 
 export default function TextForm(props) {
+  let myStyle ={
+    backgroundColor: 'black'
+  }
     const handleUpClick = () =>{
         console.log("Upper case was clicked");
         let newText =text.toUpperCase();
@@ -21,7 +24,7 @@ export default function TextForm(props) {
       
 <div className="mb-3" >
     <h1> {props.heading }</h1>
-  <textarea className="form-control" value={text} onChange={handleOnchange} id="exampleFormControlTextarea1" rows="8" >
+  <textarea className="form-control" style={myStyle} value={text} onChange={handleOnchange} id="exampleFormControlTextarea1" rows="8" >
     
   </textarea>
 </div>
