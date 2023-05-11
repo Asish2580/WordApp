@@ -21,7 +21,7 @@ export default function TextForm(props) {
     const [text,setText]=useState("");
   return (
     <>
-    <div className="container" style={mycStyle}>
+    <div className="container">
       
 <div className="mb-3" >
     <h1> {props.heading }</h1>
