@@ -25,7 +25,7 @@ export default function TextForm(props) {
     
   </textarea>
 </div>
-    <button className='btn btn-primary my-7' onClick={handleUpClick}>convert to uppercase</button>
+    <button className='btn btn-primary my-3' onClick={handleUpClick}>convert to uppercase</button>
     <button className='btn btn-primary mx-1' onClick={handleLowClick}>convert to lowercase</button>
     
 
